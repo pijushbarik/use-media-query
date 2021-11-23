@@ -12,7 +12,7 @@ const useMediaQuery = (queries, values, defaultValue) => {
     // Get index of first media query that matches
     const index = mediaQueryLists.findIndex((mql) => mql.matches);
     // Return related value or defaultValue if none
-    return values?.[index] || defaultValue;
+    return (values && values[index]) || defaultValue;
   };
 
   // State and setter for matched value
