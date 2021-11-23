@@ -1,0 +1,26 @@
+{
+  "name": "@pijushbarik/use-media-query",
+  "version": "1.0.0",
+  "description": "React hook for media query",
+  "main": "lib/index.js",
+  "umd": "dist/index.js",
+  "module": "es/index.js",
+  "scripts": {
+    "prebuild": "rimraf dist es lib",
+    "build": "rollup -c"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0"
+  },
+  "author": "Pijush Barik <pijush.barik8@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-react": "^7.16.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.60.1"
+  }
+}
