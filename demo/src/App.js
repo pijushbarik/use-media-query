@@ -1,17 +1,3 @@
-# use-media-query
-
-React hook for using media query change update on react functional components. Based on [useHooks.com](https://usehooks.com/useMedia/)
-
-## Installation
-```sh
-npm install @pijushbarik/use-media-query --save
-# or
-yarn add @pijushbarik/use-media-query
-```
-
-
-## Example
-```javascript
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
@@ -39,4 +25,3 @@ function App() {
 }
 
 export default App;
-```
