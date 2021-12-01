@@ -1,6 +1,6 @@
 {
   "name": "@pijushbarik/use-media-query",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React hook for media query",
   "main": "lib/index.js",
   "umd": "dist/index.js",
@@ -12,7 +12,7 @@
   "peerDependencies": {
     "react": ">=16.8.0"
   },
-  "author": "Pijush Barik <pijush.barik8@gmail.com>",
+  "author": "Pijush Barik <pijush.barik8@gmail.com> (https://github.com/pijushbarik)",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.16.0",
@@ -22,5 +22,18 @@
     "react-dom": "^17.0.2",
     "rimraf": "^3.0.2",
     "rollup": "^2.60.1"
-  }
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "react-hooks",
+    "react-hook",
+    "react-custom-hook",
+    "media-query",
+    "matchMedia"
+  ],
+  "bugs": {
+    "url": "https://github.com/pijushbarik/use-media-query/issues"
+  },
+  "homepage": "https://github.com/pijushbarik/use-media-query#readme"
 }
