@@ -10,7 +10,7 @@
     "build": "rollup -c"
   },
   "peerDependencies": {
-    "react": "^16.8.0"
+    "react": ">=16.8.0"
   },
   "author": "Pijush Barik <pijush.barik8@gmail.com>",
   "license": "MIT",
