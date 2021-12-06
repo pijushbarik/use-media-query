@@ -1,6 +1,6 @@
 {
   "name": "@pijushbarik/use-media-query",
-  "version": "1.1.0-alpha",
+  "version": "1.1.0",
   "description": "React hook for media query",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
