@@ -1,12 +1,12 @@
 {
   "name": "@pijushbarik/use-media-query",
-  "version": "1.0.3",
+  "version": "1.1.0-alpha",
   "description": "React hook for media query",
-  "main": "lib/index.js",
-  "umd": "dist/index.js",
-  "module": "es/index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "typings": "dist/index.d.ts",
   "scripts": {
-    "prebuild": "rimraf dist es lib",
+    "prebuild": "rimraf dist",
     "build": "rollup -c"
   },
   "peerDependencies": {
@@ -18,10 +18,16 @@
     "@babel/core": "^7.16.0",
     "@babel/preset-env": "^7.16.4",
     "@babel/preset-react": "^7.16.0",
+    "@types/node": "^16.11.11",
+    "@types/react": "^17.0.37",
+    "esbuild": "^0.14.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "rimraf": "^3.0.2",
-    "rollup": "^2.60.1"
+    "rollup": "^2.60.1",
+    "rollup-plugin-dts": "^4.0.1",
+    "rollup-plugin-esbuild": "^4.7.2",
+    "typescript": "^4.5.2"
   },
   "keywords": [
     "react",

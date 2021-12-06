@@ -3,7 +3,7 @@
  */
 import { useEffect, useState } from "react";
 
-const useMediaQuery = (queries, values, defaultValue) => {
+const useMediaQuery = <T>(queries: string[], values: T[], defaultValue: T) => {
   // Array containing a media query list for each query
   const mediaQueryLists = queries.map((q) => window.matchMedia(q));
 
@@ -16,7 +16,7 @@ const useMediaQuery = (queries, values, defaultValue) => {
   };
 
   // State and setter for matched value
-  const [value, setValue] = useState(getValue);
+  const [value, setValue] = useState<T>(getValue);
 
   useEffect(
     () => {
@@ -38,4 +38,5 @@ const useMediaQuery = (queries, values, defaultValue) => {
   return value;
 };
 
+// module.exports = useMediaQuery;
 export default useMediaQuery;
